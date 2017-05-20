@@ -1,0 +1,270 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3178531808451CAF57700A86 /* VHACD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 443B1C68177C0EA03339657D /* VHACD.cpp */; };
+		50D21E1245E217813E771A5C /* btAlignedAllocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03AD0E5F402C20DA56A77563 /* btAlignedAllocator.cpp */; };
+		5C29181538B105CA44FE403B /* btConvexHullComputer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13B42C79467A05777FA931B4 /* btConvexHullComputer.cpp */; };
+		7A2B305F5D755D897FE209C6 /* vhacdICHull.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EE525036DA436E7267F7837 /* vhacdICHull.cpp */; };
+		241D0F761106241A4D606F68 /* vhacdManifoldMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4ECB26C9054253AF0AC33EDB /* vhacdManifoldMesh.cpp */; };
+		4EAC3B2101042F0433D17C80 /* vhacdMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4692227801AB16FD662E0ABE /* vhacdMesh.cpp */; };
+		06AE32B068352D7916960D8C /* vhacdVolume.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 540D613C68F019E736CB5E73 /* vhacdVolume.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		443B1C68177C0EA03339657D /* VHACD.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "VHACD.cpp"; path = "../../Extras/VHACD/src/VHACD.cpp"; sourceTree = "<group>"; };
+		03AD0E5F402C20DA56A77563 /* btAlignedAllocator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "btAlignedAllocator.cpp"; path = "../../Extras/VHACD/src/btAlignedAllocator.cpp"; sourceTree = "<group>"; };
+		13B42C79467A05777FA931B4 /* btConvexHullComputer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "btConvexHullComputer.cpp"; path = "../../Extras/VHACD/src/btConvexHullComputer.cpp"; sourceTree = "<group>"; };
+		7EE525036DA436E7267F7837 /* vhacdICHull.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "vhacdICHull.cpp"; path = "../../Extras/VHACD/src/vhacdICHull.cpp"; sourceTree = "<group>"; };
+		4ECB26C9054253AF0AC33EDB /* vhacdManifoldMesh.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "vhacdManifoldMesh.cpp"; path = "../../Extras/VHACD/src/vhacdManifoldMesh.cpp"; sourceTree = "<group>"; };
+		4692227801AB16FD662E0ABE /* vhacdMesh.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "vhacdMesh.cpp"; path = "../../Extras/VHACD/src/vhacdMesh.cpp"; sourceTree = "<group>"; };
+		540D613C68F019E736CB5E73 /* vhacdVolume.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "vhacdVolume.cpp"; path = "../../Extras/VHACD/src/vhacdVolume.cpp"; sourceTree = "<group>"; };
+		0C8E74950C04068544ED43FA /* libvhacd_xcode4_x64_release.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libvhacd_xcode4_x64_release.a"; path = "libvhacd_xcode4_x64_release.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08B12C9645D32BBE7EF92312 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53A936051D28580B6EB557A9 /* vhacd */ = {
+			isa = PBXGroup;
+			children = (
+				40906CA369AC55FF69F14EE6 /* Extras */,
+				7E2021A37CBA4F2865BB7B65 /* Products */,
+			);
+			name = "vhacd";
+			sourceTree = "<group>";
+		};
+		40906CA369AC55FF69F14EE6 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				72891F6B5CF516491E7D20D2 /* VHACD */,
+			);
+			name = "Extras";
+			sourceTree = "<group>";
+		};
+		72891F6B5CF516491E7D20D2 /* VHACD */ = {
+			isa = PBXGroup;
+			children = (
+				740033E320837D1871D426FB /* src */,
+			);
+			name = "VHACD";
+			sourceTree = "<group>";
+		};
+		740033E320837D1871D426FB /* src */ = {
+			isa = PBXGroup;
+			children = (
+				443B1C68177C0EA03339657D /* VHACD.cpp */,
+				03AD0E5F402C20DA56A77563 /* btAlignedAllocator.cpp */,
+				13B42C79467A05777FA931B4 /* btConvexHullComputer.cpp */,
+				7EE525036DA436E7267F7837 /* vhacdICHull.cpp */,
+				4ECB26C9054253AF0AC33EDB /* vhacdManifoldMesh.cpp */,
+				4692227801AB16FD662E0ABE /* vhacdMesh.cpp */,
+				540D613C68F019E736CB5E73 /* vhacdVolume.cpp */,
+			);
+			name = "src";
+			sourceTree = "<group>";
+		};
+		7E2021A37CBA4F2865BB7B65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C8E74950C04068544ED43FA /* libvhacd_xcode4_x64_release.a */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FBA2DA973807BA8737B3AC6 /* vhacd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B427C785CA0249478C97FF5 /* Build configuration list for PBXNativeTarget "vhacd" */;
+			buildPhases = (
+				5B176E9F382F37E475304358 /* Resources */,
+				49C957067DFA442E4A0319DD /* Sources */,
+				08B12C9645D32BBE7EF92312 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "vhacd";
+			productName = "vhacd";
+			productReference = 0C8E74950C04068544ED43FA /* libvhacd_xcode4_x64_release.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "vhacd" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 53A936051D28580B6EB557A9 /* vhacd */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FBA2DA973807BA8737B3AC6 /* libvhacd_xcode4_x64_release.a */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B176E9F382F37E475304358 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49C957067DFA442E4A0319DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3178531808451CAF57700A86 /* VHACD.cpp in Sources */,
+				50D21E1245E217813E771A5C /* btAlignedAllocator.cpp in Sources */,
+				5C29181538B105CA44FE403B /* btConvexHullComputer.cpp in Sources */,
+				7A2B305F5D755D897FE209C6 /* vhacdICHull.cpp in Sources */,
+				241D0F761106241A4D606F68 /* vhacdManifoldMesh.cpp in Sources */,
+				4EAC3B2101042F0433D17C80 /* vhacdMesh.cpp in Sources */,
+				06AE32B068352D7916960D8C /* vhacdVolume.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		090402181A3E0D7F45355749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				VALID_ARCHS = "x86_64 i386";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				CONFIGURATION_BUILD_DIR = "../../bin";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = "vhacd_xcode4_x64_release";
+			};
+			name = "Release";
+		};
+		02E067FE6DAF3C5D27E2204E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				VALID_ARCHS = "x86_64 i386";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = "../../bin";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = "vhacd_xcode4_x64_debug";
+			};
+			name = "Debug";
+		};
+		1E7F352B35515AA9454F5FC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				VALID_ARCHS = "x86_64 i386";
+				SDKROOT = macosx;
+				ARCHS = "x86_64";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../../Extras/VHACD/inc",
+					"../../Extras/VHACD/public",
+				);
+				OBJROOT = "obj/x64/Release/vhacd";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-ffast-math",
+				);
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = "../../bin";
+			};
+			name = "Release";
+		};
+		1141512F76D33449544504E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				VALID_ARCHS = "x86_64 i386";
+				SDKROOT = macosx;
+				ARCHS = "x86_64";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../../Extras/VHACD/inc",
+					"../../Extras/VHACD/public",
+				);
+				OBJROOT = "obj/x64/Debug/vhacd";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-ffast-math",
+				);
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = "../../bin";
+			};
+			name = "Debug";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B427C785CA0249478C97FF5 /* Build configuration list for PBXNativeTarget "libvhacd_xcode4_x64_release.a" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090402181A3E0D7F45355749 /* Release */,
+				02E067FE6DAF3C5D27E2204E /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "vhacd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E7F352B35515AA9454F5FC3 /* Release */,
+				1141512F76D33449544504E8 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

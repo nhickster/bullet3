@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19F756A22DBF70F37AA83787 /* b3FixedConstraint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0F2D0BD43609449D53B14852 /* b3FixedConstraint.cpp */; };
+		76BE62974A1F48DB29C57C94 /* b3Generic6DofConstraint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D3756DF6E5D4863034D594D /* b3Generic6DofConstraint.cpp */; };
+		5F3F5A9C47A47EF84D572F1F /* b3PgsJacobiSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B3666285C4B5595377C3BD2 /* b3PgsJacobiSolver.cpp */; };
+		4CE2212A72E265A979237340 /* b3Point2PointConstraint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E362FD3625F67E631332D69 /* b3Point2PointConstraint.cpp */; };
+		6B5C13343E18399426911FCD /* b3TypedConstraint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F865CC44F420D980B8D5E35 /* b3TypedConstraint.cpp */; };
+		74512C3F5ED1032432CB68B9 /* b3CpuRigidBodyPipeline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45DD5BA8782A33B32D4A1524 /* b3CpuRigidBodyPipeline.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		101D72966AB66BBC3BD7458A /* b3ContactSolverInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3ContactSolverInfo.h"; path = "../../src/Bullet3Dynamics/ConstraintSolver/b3ContactSolverInfo.h"; sourceTree = "<group>"; };
+		0F2D0BD43609449D53B14852 /* b3FixedConstraint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3FixedConstraint.cpp"; path = "../../src/Bullet3Dynamics/ConstraintSolver/b3FixedConstraint.cpp"; sourceTree = "<group>"; };
+		2A5D59286599546F551D722F /* b3FixedConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3FixedConstraint.h"; path = "../../src/Bullet3Dynamics/ConstraintSolver/b3FixedConstraint.h"; sourceTree = "<group>"; };
+		6D3756DF6E5D4863034D594D /* b3Generic6DofConstraint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3Generic6DofConstraint.cpp"; path = "../../src/Bullet3Dynamics/ConstraintSolver/b3Generic6DofConstraint.cpp"; sourceTree = "<group>"; };
+		5D335ED24C4950712B9D7F46 /* b3Generic6DofConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Generic6DofConstraint.h"; path = "../../src/Bullet3Dynamics/ConstraintSolver/b3Generic6DofConstraint.h"; sourceTree = "<group>"; };
+		7D954D3845D40FF736A5260B /* b3JacobianEntry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3JacobianEntry.h"; path = "../../src/Bullet3Dynamics/ConstraintSolver/b3JacobianEntry.h"; sourceTree = "<group>"; };
+		5B3666285C4B5595377C3BD2 /* b3PgsJacobiSolver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3PgsJacobiSolver.cpp"; path = "../../src/Bullet3Dynamics/ConstraintSolver/b3PgsJacobiSolver.cpp"; sourceTree = "<group>"; };
+		5D463E0E47F6733D57060747 /* b3PgsJacobiSolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3PgsJacobiSolver.h"; path = "../../src/Bullet3Dynamics/ConstraintSolver/b3PgsJacobiSolver.h"; sourceTree = "<group>"; };
+		6E362FD3625F67E631332D69 /* b3Point2PointConstraint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3Point2PointConstraint.cpp"; path = "../../src/Bullet3Dynamics/ConstraintSolver/b3Point2PointConstraint.cpp"; sourceTree = "<group>"; };
+		17D214B8711071403E5D4D0B /* b3Point2PointConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Point2PointConstraint.h"; path = "../../src/Bullet3Dynamics/ConstraintSolver/b3Point2PointConstraint.h"; sourceTree = "<group>"; };
+		2D9121C54B934A4A6519093B /* b3SolverBody.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3SolverBody.h"; path = "../../src/Bullet3Dynamics/ConstraintSolver/b3SolverBody.h"; sourceTree = "<group>"; };
+		30E73CEB12924E6978113837 /* b3SolverConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3SolverConstraint.h"; path = "../../src/Bullet3Dynamics/ConstraintSolver/b3SolverConstraint.h"; sourceTree = "<group>"; };
+		5F865CC44F420D980B8D5E35 /* b3TypedConstraint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3TypedConstraint.cpp"; path = "../../src/Bullet3Dynamics/ConstraintSolver/b3TypedConstraint.cpp"; sourceTree = "<group>"; };
+		5DE221A7118E40FC2110364C /* b3TypedConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3TypedConstraint.h"; path = "../../src/Bullet3Dynamics/ConstraintSolver/b3TypedConstraint.h"; sourceTree = "<group>"; };
+		45DD5BA8782A33B32D4A1524 /* b3CpuRigidBodyPipeline.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3CpuRigidBodyPipeline.cpp"; path = "../../src/Bullet3Dynamics/b3CpuRigidBodyPipeline.cpp"; sourceTree = "<group>"; };
+		53D57D9A262E4A9C68A14CC7 /* b3CpuRigidBodyPipeline.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3CpuRigidBodyPipeline.h"; path = "../../src/Bullet3Dynamics/b3CpuRigidBodyPipeline.h"; sourceTree = "<group>"; };
+		343062CC4FFA3BA440C36ED2 /* b3ContactConstraint4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3ContactConstraint4.h"; path = "../../src/Bullet3Dynamics/shared/b3ContactConstraint4.h"; sourceTree = "<group>"; };
+		544C4CB0550357E5190A6E83 /* b3ConvertConstraint4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3ConvertConstraint4.h"; path = "../../src/Bullet3Dynamics/shared/b3ConvertConstraint4.h"; sourceTree = "<group>"; };
+		14F8558078A058B775FE3084 /* b3Inertia.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Inertia.h"; path = "../../src/Bullet3Dynamics/shared/b3Inertia.h"; sourceTree = "<group>"; };
+		5DDC4A7A1E5965703DC62D03 /* b3IntegrateTransforms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3IntegrateTransforms.h"; path = "../../src/Bullet3Dynamics/shared/b3IntegrateTransforms.h"; sourceTree = "<group>"; };
+		4B737F9B4DDB0B2A7E3164EC /* libBullet3Dynamics_xcode4_x64_release.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libBullet3Dynamics_xcode4_x64_release.a"; path = "libBullet3Dynamics_xcode4_x64_release.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45DC151D389F78D24B3325B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A1B112F664C24BB14A163DB /* Bullet3Dynamics */ = {
+			isa = PBXGroup;
+			children = (
+				58D048E34D0108C419F07088 /* src */,
+				5943522920596AC54DE26DE2 /* Products */,
+			);
+			name = "Bullet3Dynamics";
+			sourceTree = "<group>";
+		};
+		58D048E34D0108C419F07088 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0BDB5B1203717F0465AD6831 /* Bullet3Dynamics */,
+			);
+			name = "src";
+			sourceTree = "<group>";
+		};
+		0BDB5B1203717F0465AD6831 /* Bullet3Dynamics */ = {
+			isa = PBXGroup;
+			children = (
+				142546861C025D1E62DA714B /* ConstraintSolver */,
+				45DD5BA8782A33B32D4A1524 /* b3CpuRigidBodyPipeline.cpp */,
+				53D57D9A262E4A9C68A14CC7 /* b3CpuRigidBodyPipeline.h */,
+				5904277A4E4C64A531677752 /* shared */,
+			);
+			name = "Bullet3Dynamics";
+			sourceTree = "<group>";
+		};
+		142546861C025D1E62DA714B /* ConstraintSolver */ = {
+			isa = PBXGroup;
+			children = (
+				101D72966AB66BBC3BD7458A /* b3ContactSolverInfo.h */,
+				0F2D0BD43609449D53B14852 /* b3FixedConstraint.cpp */,
+				2A5D59286599546F551D722F /* b3FixedConstraint.h */,
+				6D3756DF6E5D4863034D594D /* b3Generic6DofConstraint.cpp */,
+				5D335ED24C4950712B9D7F46 /* b3Generic6DofConstraint.h */,
+				7D954D3845D40FF736A5260B /* b3JacobianEntry.h */,
+				5B3666285C4B5595377C3BD2 /* b3PgsJacobiSolver.cpp */,
+				5D463E0E47F6733D57060747 /* b3PgsJacobiSolver.h */,
+				6E362FD3625F67E631332D69 /* b3Point2PointConstraint.cpp */,
+				17D214B8711071403E5D4D0B /* b3Point2PointConstraint.h */,
+				2D9121C54B934A4A6519093B /* b3SolverBody.h */,
+				30E73CEB12924E6978113837 /* b3SolverConstraint.h */,
+				5F865CC44F420D980B8D5E35 /* b3TypedConstraint.cpp */,
+				5DE221A7118E40FC2110364C /* b3TypedConstraint.h */,
+			);
+			name = "ConstraintSolver";
+			sourceTree = "<group>";
+		};
+		5904277A4E4C64A531677752 /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				343062CC4FFA3BA440C36ED2 /* b3ContactConstraint4.h */,
+				544C4CB0550357E5190A6E83 /* b3ConvertConstraint4.h */,
+				14F8558078A058B775FE3084 /* b3Inertia.h */,
+				5DDC4A7A1E5965703DC62D03 /* b3IntegrateTransforms.h */,
+			);
+			name = "shared";
+			sourceTree = "<group>";
+		};
+		5943522920596AC54DE26DE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B737F9B4DDB0B2A7E3164EC /* libBullet3Dynamics_xcode4_x64_release.a */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76A964C81DDC02842B960F41 /* Bullet3Dynamics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 389946052FB9560B0034163A /* Build configuration list for PBXNativeTarget "Bullet3Dynamics" */;
+			buildPhases = (
+				3E602411139534D10B706F87 /* Resources */,
+				086075574F672FD42EFB0429 /* Sources */,
+				45DC151D389F78D24B3325B5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bullet3Dynamics";
+			productName = "Bullet3Dynamics";
+			productReference = 4B737F9B4DDB0B2A7E3164EC /* libBullet3Dynamics_xcode4_x64_release.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "Bullet3Dynamics" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 2A1B112F664C24BB14A163DB /* Bullet3Dynamics */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76A964C81DDC02842B960F41 /* libBullet3Dynamics_xcode4_x64_release.a */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E602411139534D10B706F87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		086075574F672FD42EFB0429 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19F756A22DBF70F37AA83787 /* b3FixedConstraint.cpp in Sources */,
+				76BE62974A1F48DB29C57C94 /* b3Generic6DofConstraint.cpp in Sources */,
+				5F3F5A9C47A47EF84D572F1F /* b3PgsJacobiSolver.cpp in Sources */,
+				4CE2212A72E265A979237340 /* b3Point2PointConstraint.cpp in Sources */,
+				6B5C13343E18399426911FCD /* b3TypedConstraint.cpp in Sources */,
+				74512C3F5ED1032432CB68B9 /* b3CpuRigidBodyPipeline.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CBB059E054579AE46D20915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				VALID_ARCHS = "x86_64 i386";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				CONFIGURATION_BUILD_DIR = "../../bin";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = "Bullet3Dynamics_xcode4_x64_release";
+			};
+			name = "Release";
+		};
+		6B383D927394256948F178DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				VALID_ARCHS = "x86_64 i386";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = "../../bin";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = "Bullet3Dynamics_xcode4_x64_debug";
+			};
+			name = "Debug";
+		};
+		737D286E61EA67B470F25735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				VALID_ARCHS = "x86_64 i386";
+				SDKROOT = macosx;
+				ARCHS = "x86_64";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../../src",
+				);
+				OBJROOT = "obj/x64/Release/Bullet3Dynamics";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-ffast-math",
+				);
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = "../../bin";
+			};
+			name = "Release";
+		};
+		4AE722A4516420FC3FB73E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				VALID_ARCHS = "x86_64 i386";
+				SDKROOT = macosx;
+				ARCHS = "x86_64";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../../src",
+				);
+				OBJROOT = "obj/x64/Debug/Bullet3Dynamics";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-ffast-math",
+				);
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = "../../bin";
+			};
+			name = "Debug";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		389946052FB9560B0034163A /* Build configuration list for PBXNativeTarget "libBullet3Dynamics_xcode4_x64_release.a" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CBB059E054579AE46D20915 /* Release */,
+				6B383D927394256948F178DA /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "Bullet3Dynamics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				737D286E61EA67B470F25735 /* Release */,
+				4AE722A4516420FC3FB73E37 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

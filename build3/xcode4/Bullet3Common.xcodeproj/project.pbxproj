@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C7E598A0B4E68743218635A /* b3AlignedAllocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27C5280A676A6276597C685F /* b3AlignedAllocator.cpp */; };
+		3C71340A2FBF5FE96C33230B /* b3Logging.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02F07E5713F4787F14F97385 /* b3Logging.cpp */; };
+		5EA144FC1216203132606F4D /* b3Vector3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DE32D5D5DFC00B16B571FEE /* b3Vector3.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27C5280A676A6276597C685F /* b3AlignedAllocator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3AlignedAllocator.cpp"; path = "../../src/Bullet3Common/b3AlignedAllocator.cpp"; sourceTree = "<group>"; };
+		3589707D50F11BBC6B6F5C2E /* b3AlignedAllocator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3AlignedAllocator.h"; path = "../../src/Bullet3Common/b3AlignedAllocator.h"; sourceTree = "<group>"; };
+		78EE57612D0824ED639B65E3 /* b3AlignedObjectArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3AlignedObjectArray.h"; path = "../../src/Bullet3Common/b3AlignedObjectArray.h"; sourceTree = "<group>"; };
+		2C044B271AC06A91053C64FE /* b3CommandLineArgs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3CommandLineArgs.h"; path = "../../src/Bullet3Common/b3CommandLineArgs.h"; sourceTree = "<group>"; };
+		7EFE5C057E72002727FD090E /* b3FileUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3FileUtils.h"; path = "../../src/Bullet3Common/b3FileUtils.h"; sourceTree = "<group>"; };
+		7B551B644827159C6C0F4FE9 /* b3HashMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3HashMap.h"; path = "../../src/Bullet3Common/b3HashMap.h"; sourceTree = "<group>"; };
+		02F07E5713F4787F14F97385 /* b3Logging.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3Logging.cpp"; path = "../../src/Bullet3Common/b3Logging.cpp"; sourceTree = "<group>"; };
+		358B746347127EE70125425D /* b3Logging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Logging.h"; path = "../../src/Bullet3Common/b3Logging.h"; sourceTree = "<group>"; };
+		1A5F67F109926CC50F254C6B /* b3Matrix3x3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Matrix3x3.h"; path = "../../src/Bullet3Common/b3Matrix3x3.h"; sourceTree = "<group>"; };
+		267751D912AE6DEB0229561A /* b3MinMax.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3MinMax.h"; path = "../../src/Bullet3Common/b3MinMax.h"; sourceTree = "<group>"; };
+		497211FE62B225611EEC5718 /* b3PoolAllocator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3PoolAllocator.h"; path = "../../src/Bullet3Common/b3PoolAllocator.h"; sourceTree = "<group>"; };
+		713B638952125CF30ACC16FE /* b3QuadWord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3QuadWord.h"; path = "../../src/Bullet3Common/b3QuadWord.h"; sourceTree = "<group>"; };
+		242B30897AFA684B4A1E0FDA /* b3Quaternion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Quaternion.h"; path = "../../src/Bullet3Common/b3Quaternion.h"; sourceTree = "<group>"; };
+		373E61BE147057E514A85307 /* b3Random.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Random.h"; path = "../../src/Bullet3Common/b3Random.h"; sourceTree = "<group>"; };
+		736D7ED7135C17A0190D5A11 /* b3ResizablePool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3ResizablePool.h"; path = "../../src/Bullet3Common/b3ResizablePool.h"; sourceTree = "<group>"; };
+		15C615BC175C313D55E8157B /* b3Scalar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Scalar.h"; path = "../../src/Bullet3Common/b3Scalar.h"; sourceTree = "<group>"; };
+		746E21A8288215C277464758 /* b3StackAlloc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3StackAlloc.h"; path = "../../src/Bullet3Common/b3StackAlloc.h"; sourceTree = "<group>"; };
+		6354251E63956FCC5B5D7501 /* b3Transform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Transform.h"; path = "../../src/Bullet3Common/b3Transform.h"; sourceTree = "<group>"; };
+		299458DA7E700D9620D063BF /* b3TransformUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3TransformUtil.h"; path = "../../src/Bullet3Common/b3TransformUtil.h"; sourceTree = "<group>"; };
+		2DE32D5D5DFC00B16B571FEE /* b3Vector3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3Vector3.cpp"; path = "../../src/Bullet3Common/b3Vector3.cpp"; sourceTree = "<group>"; };
+		2F3B5FF17E2017B6488329A2 /* b3Vector3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Vector3.h"; path = "../../src/Bullet3Common/b3Vector3.h"; sourceTree = "<group>"; };
+		4C8B47CB78775F1F16B70950 /* libBullet3Common_xcode4_x64_release.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libBullet3Common_xcode4_x64_release.a"; path = "libBullet3Common_xcode4_x64_release.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		278C1174709F65EB622644C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33DA34332A7E618D0C811980 /* Bullet3Common */ = {
+			isa = PBXGroup;
+			children = (
+				248151E04E994BF555C6573E /* src */,
+				03EB630105F067566D34119F /* Products */,
+			);
+			name = "Bullet3Common";
+			sourceTree = "<group>";
+		};
+		248151E04E994BF555C6573E /* src */ = {
+			isa = PBXGroup;
+			children = (
+				28B517416580534772AA7947 /* Bullet3Common */,
+			);
+			name = "src";
+			sourceTree = "<group>";
+		};
+		28B517416580534772AA7947 /* Bullet3Common */ = {
+			isa = PBXGroup;
+			children = (
+				27C5280A676A6276597C685F /* b3AlignedAllocator.cpp */,
+				3589707D50F11BBC6B6F5C2E /* b3AlignedAllocator.h */,
+				78EE57612D0824ED639B65E3 /* b3AlignedObjectArray.h */,
+				2C044B271AC06A91053C64FE /* b3CommandLineArgs.h */,
+				7EFE5C057E72002727FD090E /* b3FileUtils.h */,
+				7B551B644827159C6C0F4FE9 /* b3HashMap.h */,
+				02F07E5713F4787F14F97385 /* b3Logging.cpp */,
+				358B746347127EE70125425D /* b3Logging.h */,
+				1A5F67F109926CC50F254C6B /* b3Matrix3x3.h */,
+				267751D912AE6DEB0229561A /* b3MinMax.h */,
+				497211FE62B225611EEC5718 /* b3PoolAllocator.h */,
+				713B638952125CF30ACC16FE /* b3QuadWord.h */,
+				242B30897AFA684B4A1E0FDA /* b3Quaternion.h */,
+				373E61BE147057E514A85307 /* b3Random.h */,
+				736D7ED7135C17A0190D5A11 /* b3ResizablePool.h */,
+				15C615BC175C313D55E8157B /* b3Scalar.h */,
+				746E21A8288215C277464758 /* b3StackAlloc.h */,
+				6354251E63956FCC5B5D7501 /* b3Transform.h */,
+				299458DA7E700D9620D063BF /* b3TransformUtil.h */,
+				2DE32D5D5DFC00B16B571FEE /* b3Vector3.cpp */,
+				2F3B5FF17E2017B6488329A2 /* b3Vector3.h */,
+			);
+			name = "Bullet3Common";
+			sourceTree = "<group>";
+		};
+		03EB630105F067566D34119F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C8B47CB78775F1F16B70950 /* libBullet3Common_xcode4_x64_release.a */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20B432DA27A76AE0499B70D1 /* Bullet3Common */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 092F7055684C6A106E9457B8 /* Build configuration list for PBXNativeTarget "Bullet3Common" */;
+			buildPhases = (
+				0EE30DAE25C73504527E5502 /* Resources */,
+				2C7804292FB4571E1AA707E4 /* Sources */,
+				278C1174709F65EB622644C8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bullet3Common";
+			productName = "Bullet3Common";
+			productReference = 4C8B47CB78775F1F16B70950 /* libBullet3Common_xcode4_x64_release.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "Bullet3Common" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 33DA34332A7E618D0C811980 /* Bullet3Common */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20B432DA27A76AE0499B70D1 /* libBullet3Common_xcode4_x64_release.a */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EE30DAE25C73504527E5502 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C7804292FB4571E1AA707E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C7E598A0B4E68743218635A /* b3AlignedAllocator.cpp in Sources */,
+				3C71340A2FBF5FE96C33230B /* b3Logging.cpp in Sources */,
+				5EA144FC1216203132606F4D /* b3Vector3.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36233A2422787745689F4EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				VALID_ARCHS = "x86_64 i386";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				CONFIGURATION_BUILD_DIR = "../../bin";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = "Bullet3Common_xcode4_x64_release";
+			};
+			name = "Release";
+		};
+		6E2173DA1BDE33242C043F87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				VALID_ARCHS = "x86_64 i386";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = "../../bin";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = "Bullet3Common_xcode4_x64_debug";
+			};
+			name = "Debug";
+		};
+		25D43ED0553257A860322771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				VALID_ARCHS = "x86_64 i386";
+				SDKROOT = macosx;
+				ARCHS = "x86_64";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../../src",
+				);
+				OBJROOT = "obj/x64/Release/Bullet3Common";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-ffast-math",
+				);
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = "../../bin";
+			};
+			name = "Release";
+		};
+		399642C33E927AD744345606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				VALID_ARCHS = "x86_64 i386";
+				SDKROOT = macosx;
+				ARCHS = "x86_64";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../../src",
+				);
+				OBJROOT = "obj/x64/Debug/Bullet3Common";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-ffast-math",
+				);
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = "../../bin";
+			};
+			name = "Debug";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		092F7055684C6A106E9457B8 /* Build configuration list for PBXNativeTarget "libBullet3Common_xcode4_x64_release.a" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36233A2422787745689F4EBA /* Release */,
+				6E2173DA1BDE33242C043F87 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "Bullet3Common" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25D43ED0553257A860322771 /* Release */,
+				399642C33E927AD744345606 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
